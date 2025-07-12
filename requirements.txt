@@ -1,0 +1,8 @@
+numpy==1.26.4 #numerical python
+pandas==2.1.3 #data manipulation
+scikit-learn==1.3.2 #machine learning models and preprocessing
+openai #eda processing
+GROQ
+seaborn
+dotenv #eda processing
+
