@@ -1,13 +1,16 @@
-# Churn Modeling - Missing Values Handling
+# Churn Modeling - Data Cleaning & Preprocessing
 
-This is a simple beginner-level project focused on handling missing values in a customer churn dataset.
+This is a beginner-friendly project focused on exploring and preparing a customer churn dataset for machine learning modeling. The project is structured in sequential notebooks that address common steps in Exploratory Data Analysis (EDA), data cleaning, and preprocessing.
 
 ## 📋 Project Overview
 
-The main goal of this task was to practice basic data cleaning and preprocessing techniques, particularly:
-- Identifying missing/NULL values
-- Predicting missing gender using a language model (LLM)
-- Dropping unnecessary columns
+The goal of this project is to practice core data preparation techniques, including:
+
+- Identifying and handling missing values
+- Detecting and addressing outliers
+- Building a clean and model-ready dataset step-by-step
+
+Each stage is documented in separate, clearly numbered Jupyter notebooks.
 
 ## 🧰 Tools Used
 
@@ -15,25 +18,20 @@ The main goal of this task was to practice basic data cleaning and preprocessing
 - Pandas
 - Pydantic
 - groq (LLM API)
+- Matplotlib, Seaborn (for visualizations)
+- Scikit-learn (planned for modeling)
 
-## 🔧 What I Did
+## 📂 Project Structure
 
-- Loaded a churn dataset with missing values in `Firstname`, `Lastname`, and `Gender`
-- Used an LLM to predict gender based on first and last names
-- Filled in missing gender values
-- Dropped columns not needed for modeling (`RowNumber`, `CustomerId`, `Firstname`, `Lastname`)
+- '0_handle_missing_values.ipynb' – missing value detection and imputation
 
-## 📂 Files
-
-- `churn_cleaning.ipynb` – main notebook with all code
-- `README.md` – this file
+- '1_handle_outliers.ipynb' – outlier detection and treatment (WIP)
 
 ## 🚀 Future Improvements
 
-- Add more preprocessing (e.g., feature scaling, encoding)
-- Build a churn prediction model
-- Evaluate model performance
-
+- Complete full preprocessing pipeline
+- Train a machine learning model to predict churn
+- Evaluate and iterate on model performance
 ---
 
-This is just a learning project. Feedback and suggestions are welcome!
+This project is for learning purposes and evolving over time. Feedback and contributions are always welcome!
