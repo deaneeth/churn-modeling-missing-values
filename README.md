@@ -61,7 +61,7 @@ This project covers the **complete preprocessing & EDA pipeline**, built step-by
 
 ## 🤝 Contribute or Follow Along
 
-This repo is evolving *week by week*. Star ⭐ to stay updated. Fork 🍴 to experiment. Contributions & feedback welcome!
+This repo is evolving *week by week*. Star ⭐ to stay updated. Fork 🍴 to experiment. Contributions & feedback welcome! 
 Please read the [contributing guidelines](CONTRIBUTING.md) first.
 ---
 
