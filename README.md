@@ -2,6 +2,7 @@
 
 A beginner-to-intermediate-friendly project that walks you through the **entire journey of preparing data** for customer churn prediction — one notebook at a time. 🧪
 
+
 🚀 **This repo is updated weekly** with:
 - Clean, progressive Jupyter notebooks
 - Raw & processed datasets
@@ -20,17 +21,21 @@ This project covers the **complete preprocessing & EDA pipeline**, built step-by
 | `1_handle_outliers.ipynb`       | Detect & treat outliers (in progress)          |
 | *Coming soon...*                | Feature scaling, encoding, correlation, etc.   |
 
-📁 **Folder structure:**
+
+## 📁 **Folder structure:**
+
+```
 - 📂 raw/ → raw input dataset
 - 📂 processed/ → cleaned and transformed versions
 - 📓 Notebooks → each preprocessing step in a separate notebook
-
+```
 ---
 
 ## 🛠️ Tools Used
 
 - Python, Pandas, Pydantic
 - groq LLM (for smart imputations)
+- OpenAI API
 - Matplotlib, Seaborn
 - Scikit-learn *(soon)*
 
@@ -57,7 +62,7 @@ This project covers the **complete preprocessing & EDA pipeline**, built step-by
 ## 🤝 Contribute or Follow Along
 
 This repo is evolving *week by week*. Star ⭐ to stay updated. Fork 🍴 to experiment. Contributions & feedback welcome!
-
+Please read the [contributing guidelines](CONTRIBUTING.md) first.
 ---
 
 ### 👀 Want to learn how data scientists **actually clean data** before modeling?  
